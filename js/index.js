@@ -7,7 +7,7 @@ $.getJSON("https://jsonp.afeld.me/?url=http://quotes.stormconsultancy.co.uk/rand
   $("#tweet").click(function() {
   var phrase = document.getElementById("quote").innerText;
   var tweetUrl = "https://twitter.com/share?text=" +
-    encodeURIComponent(phrase);
+   phrase;
     
   window.open(tweetUrl);
 });
